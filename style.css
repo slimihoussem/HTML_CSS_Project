@@ -1,17 +1,22 @@
 
 #services{
   color: gray;
+  border: gray 3px;
   justify-content: space-around;
   flex-direction: row;
   gap: 15px;
   display:flex;
   box-sizing:border-box;
  }
-
+#h1{font-family: cursive;
+color: gray;}
 #shooting,#Mariages,#Evenements{
+    font-family: cursive;
     flex: auto;
     /*display: flex;*/
+    border: gray 3px;
     justify-items: center;
+    text-align: justify;
     padding: 15px;
     box-sizing: border-box;
     width: 300px;
