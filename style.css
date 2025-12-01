@@ -1,10 +1,16 @@
 
-body{
+#divcont{
+    align-items: center;
+    display: flex;
+}
+#stylform{
     margin: 100px;
-    background-color: transparent;
+    /*background-color: transparent;*/
     font-style: italic;
-    background-color: rgba(255, 255, 255, 0.5); /* Blanco al 50% de opacidad */
+    /*filter: blur(5px);*/
+    background-color: rgba(117, 111, 111, 0.651); /* Blanco al 50% de opacidad */
     align-content: center;
+    padding: 50px;
 }
 #msg{
    width: 250px;
