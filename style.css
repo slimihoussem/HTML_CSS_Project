@@ -1,8 +1,9 @@
-<<<<<<< HEAD
+
 .section1 #accueil1 {
     background-image: url("image/accueil.jpg");
     width: 100%;
     height: 1000PX;
+    font-size: 2em;
 
 }
 
@@ -69,7 +70,7 @@
     width: 50%;
     height: 50%;
 }
-=======
+
 
 #services{
   color: gray;
@@ -234,4 +235,3 @@ img{
     font-family: Impact, Haettenschweiler, sans-serif;
 }
 /* ------------------------------------------------------------- */
->>>>>>> 2e5787f394c747d6b01674765d48681dcf64549b
