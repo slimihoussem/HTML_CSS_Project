@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .section1 #accueil1 {
     background-image: url("image/accueil.jpg");
     width: 100%;
@@ -68,3 +69,169 @@
     width: 50%;
     height: 50%;
 }
+=======
+
+#services{
+  color: gray;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 15px;
+  display:flex;
+  box-sizing:border-box;
+ }
+
+#shooting,#Mariages,#Evenements{
+    flex: auto;
+    /*display: flex;*/
+    justify-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 300px;
+    }
+
+#shooting{
+    flex-shrink: 3 !important;
+}
+
+
+#divcont{
+    align-items: center;
+    display: flex;
+}
+#stylform{
+    /*background-color: transparent;*/
+    font-style: italic;
+    /*filter: blur(5px);*/
+    background-color: rgba(117, 111, 111, 0.651); /* Blanco al 50% de opacidad */
+    align-content: center;
+    padding: 50px;
+}
+#msg{
+   width: 250px;
+   height: 100px; 
+}
+#but{
+    background-color: #606d79;
+    align-items: center;
+}
+
+ .alert {
+            display: none;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        
+        .alert.success {
+            background-color: #606d79;
+            color: #0a0a0a;
+            border: 1px solid #606d79;
+        }
+        
+        /* Quand le formulaire reçoit le focus et est "validé" */
+        form:focus-within .alert.success {
+            display: block;
+        }
+        
+header {
+    align-items: center;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    background-color: rgb(215, 213, 213);
+    height: 70px;
+}
+
+footer{
+    background-color: rgb(215, 213, 213);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#logo img{
+    float: left;
+    margin-left: 0;
+    width: 90px;
+    height: 50px;
+}
+
+#nav_bar nav{
+    float: right;
+    top: 0;
+    right: 0;
+    margin-right: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+header a{
+        text-decoration: none;
+        color: black;
+}
+
+footer a{
+         text-decoration: none;
+        color: black;
+}
+
+#footer_id{
+    font-family: Arial, sans-serif;
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+#copyright{
+    font-size: 1.5em;
+    font-style: italic;
+    color: black;
+}
+
+
+
+
+/*--------------------------- Section 2------------------- */
+#Portfolio_container_section{
+   border: solid pink 5px;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items:center;  
+  flex-direction: row;
+  gap: 15px;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 55px;
+  justify-items: center;
+}
+
+.photo-grid-item p{
+    color:rgb(192, 35, 61);
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    border: solid pink 3px;
+}
+#Portfolio_container_section{
+    font-family: Impact, Haettenschweiler, sans-serif;
+}
+/* ------------------------------------------------------------- */
+>>>>>>> 2e5787f394c747d6b01674765d48681dcf64549b

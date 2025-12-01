@@ -2,11 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=500, height=500, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="divcont">
+    <form action="contact.html" method="get" id="stylform">
+        <label for="Name">Nom:</label><br>
+        <input type="text" name="Nom" id="nom" placeholder="Saisir votre nom" required><br>
+<br>
+        <label for="Email">Email:</label><br>
+        <input type="email" name="Email" id="email" placeholder="Saisir votre email" required><br>
+<br>
+        <label for="nbtel">Numero de téléphone:</label><br>
+        <input type="tel" pattern="\+216[0-9]{8}$" name="telephone" id="nbtel" placeholder="+216xxxxxxxxx" required> <br>
+<br>
+        <label for="time">Date d'événement:</label> <br>
+        <input type="date" name="datee" id="datee" required><br>
+<br>
+        <label for="msg">Description d'événement:</label><br>
+        <input type="text" name="msg" id="msg" placeholder="Decrire votre évenement." required><br>
+<br>
+        <label for="button"></label>
+        <input type="submit" value="Envoyer" id="but">
+
+        <div class="alert success">
+            THANKS FOR CHOOSING US &#10084;&#xfe0f!
+        </div>
+    </form>
+</div>
+     <!-- <div id="success-message" class="message-success">
+        Formulaire envoyé avec succès !
+        <a href="#" class="close-btn">&times;</a>
+    </div> -->
 </body>
 </html>
