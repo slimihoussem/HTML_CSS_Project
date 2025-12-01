@@ -1,0 +1,25 @@
+h1{
+    color: gray;
+    font-style: oblique;
+    text-align: center;
+}
+.services{
+    justify-items: center;
+    display: flex;
+    border: solid black 5px;
+}
+.shooting{
+    height: 100px; 
+    width: 100px;
+    
+}
+.Mariages{
+   height: 100px; 
+    width: 100px;
+   
+}
+.Evenement{
+    height: 100px; 
+    width: 100px;
+    
+}
