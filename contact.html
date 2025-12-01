@@ -28,12 +28,14 @@
         <input type="submit" value="Envoyer" id="but" onclick="showMsg()">
 
         <div class="alert success" id="message">
-            THANKS FOR CHOOSING US &#10084;&#xfe0f!
+            MERCI DE NOUS AVOIR CHOISI &#10084;&#xfe0f!
         </div>
 
         <script>
            function showMsg() {
            document.getElementById('message').style.display = 'block';
+           const bottomElement = document.getElementById('message');
+           bottomElement.scrollIntoView({ behavior: 'smooth' })
         }
         </script>
     </form>
