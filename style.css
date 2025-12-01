@@ -1,3 +1,24 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+#services{
+  color: gray;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 15px;
+  display: flex;
+ }
+
+#shooting,#Mariages,#Evenements{
+    flex: auto;
+    /*display: flex;*/
+    justify-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    }
+
+    
+=======
+=======
 
 #divcont{
     align-items: center;
@@ -85,6 +106,7 @@ header a{
 
 
 
+>>>>>>> d2663e80d4216907c2d6af1e6d418fc54210bf9f
 /*--------------------------- Section 2------------------- */
 #Portfolio_container_section{
    border: solid pink 5px;
@@ -122,5 +144,9 @@ img{
     border-radius: 50%;
 }
 /* ------------------------------------------------------------- */
+<<<<<<< HEAD
+>>>>>>> 266afa9d1a9ad724973e7835fb2f468f0282f339
+=======
 
 
+>>>>>>> d2663e80d4216907c2d6af1e6d418fc54210bf9f
