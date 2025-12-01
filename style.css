@@ -1,0 +1,33 @@
+body{
+    margin: 100px;
+    background-color: transparent;
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.5); /* Blanco al 50% de opacidad */
+    align-content: center;
+}
+#msg{
+   width: 250px;
+   height: 100px; 
+}
+#but{
+    background-color: #606d79;
+    align-items: center;
+}
+
+ .alert {
+            display: none;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        
+        .alert.success {
+            background-color: #606d79;
+            color: #0a0a0a;
+            border: 1px solid #606d79;
+        }
+        
+        /* Quand le formulaire reçoit le focus et est "validé" */
+        form:focus-within .alert.success {
+            display: block;
+        }
