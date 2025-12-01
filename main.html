@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>photographe</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <!--header-->
     <header>
         <div id="logo">
-            <img src="image/logo.jpg" alt="logo">
+            <a href="#">
+                <img src="image/logo.png" alt="logo">
+            </a>
         </div>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -25,11 +28,16 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div id="nav_bar">
+            <script>
+                function openPopup(page) {
+                window.open(page, "popupWindow", "width=377,height=500,left=450,top=200");
+                    }
+</script>
             <nav>
                     <a href="#section1"><span>Acceuil  </span></a> &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#section2"><span>Portfolio  </span></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#Portfolio_container_section"><span>Portfolio  </span></a> &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="#section3"><span>Services  </span></a> &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="contact.html"><span>Contact  </span></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" onclick="openPopup('contact.html')"><span>Contact  </span></a> &nbsp;&nbsp;&nbsp;&nbsp;
             </nav>
 
         </div>
@@ -83,13 +91,57 @@
     </section>
 
     <!--section 3-->
-    <section>
+    <section id="services">
+        <h1>Services:</h1>
+        <div id="shooting">
+    <img src="C:\Users\hp\Desktop\services photos\Shooting.png" alt="Shooting">
+       <h2>Shooting</h2>
+<p>Light Studio propose des séances photo personnalisées adaptées aux besoins de chacun, 
+    que ce soit pour des portraits, des photos de mode, de produits ou du contenu créatif. 
+    L’accent est mis sur la mise en valeur du sujet à travers un éclairage maîtrisé et une composition soignée </p>
+    </div>
+     <div id="Mariages">
+    <img src="C:\Users\hp\Desktop\services photos\Mariage.png" alt="Mariages">
+      <h2>Mariages</h2>
+<p>Le studio assure la couverture complète des mariages, en immortalisant chaque instant  
+    important avec naturel et élégance. Des préparatifs à la cérémonie, 
+    chaque moment est capturé pour créer des souvenirs authentiques et intemporels.</p> 
+    </div>
+    <div id="Evenements">
+    <img src="C:\Users\hp\Desktop\services photos\evennements.png" alt="Evenements">
+        <h2>Evénements</h2>
+    <p>Pour les événements privés ou professionnels, le studio offre un service de photographie 
+    dynamique et discret. Conférences, fêtes, lancements ou célébrations, chaque moment clé est documenté 
+    avec précision pour restituer l’ambiance et mettre en valeur l’événement.</p>
+    </div>
 
     </section>
 
     <!--footer-->
     <footer>
+         <div id="location">
+             <a href="https://maps.google.com/?q=Your+Location+Here" 
+                 target="_blank" 
+                  aria-label="Our Location">
+              <span >📍</span>
+             <span>Emplacement</span>
+             </a>
 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             
+             <a href="whatsapp://send?text=google.com">
+                <span >🔗</span>
+              <span>WhatsApp</span>
+                </a>
+
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com">
+                <span >🔗</span>
+                <span>Facebook</span>
+            </a>
+
+         </div>
     </footer>
 
 </body>

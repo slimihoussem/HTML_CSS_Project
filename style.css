@@ -1,10 +1,30 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+#services{
+  color: gray;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 15px;
+  display: flex;
+ }
+
+#shooting,#Mariages,#Evenements{
+    flex: auto;
+    /*display: flex;*/
+    justify-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    }
+
+    
+=======
+=======
 
 #divcont{
     align-items: center;
     display: flex;
 }
 #stylform{
-    margin: 100px;
     /*background-color: transparent;*/
     font-style: italic;
     /*filter: blur(5px);*/
@@ -38,18 +58,28 @@
         form:focus-within .alert.success {
             display: block;
         }
+        
 header {
     align-items: center;
     display: flex;
+    position: sticky;
+    top: 0;
     justify-content: center;
-    display: fixed;
     background-color: rgb(215, 213, 213);
+}
+
+footer{
+    background-color: rgb(215, 213, 213);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
 }
 
 #logo img{
     float: left;
     margin-left: 0;
-    width: 50px;
+    width: 90px;
     height: 50px;
 }
 
@@ -60,6 +90,7 @@ header {
     margin-right: 0;
     font-family: Arial, sans-serif;
     font-size: 1.5em;
+    font-style: italic;
 }
 
 header a{
@@ -67,6 +98,15 @@ header a{
         color: black;
 }
 
+#footer_id{
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+
+
+>>>>>>> d2663e80d4216907c2d6af1e6d418fc54210bf9f
 /*--------------------------- Section 2------------------- */
 #Portfolio_container_section{
    border: solid pink 5px;
@@ -108,5 +148,9 @@ img{
     font-family: Impact, Haettenschweiler, sans-serif;
 }
 /* ------------------------------------------------------------- */
+<<<<<<< HEAD
+>>>>>>> 266afa9d1a9ad724973e7835fb2f468f0282f339
+=======
 
 
+>>>>>>> d2663e80d4216907c2d6af1e6d418fc54210bf9f
