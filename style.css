@@ -4,7 +4,6 @@
     display: flex;
 }
 #stylform{
-    margin: 100px;
     /*background-color: transparent;*/
     font-style: italic;
     /*filter: blur(5px);*/
@@ -78,16 +77,13 @@ header a{
         color: black;
 }
 
-#location{
+#footer_id{
     font-family: Arial, sans-serif;
     font-size: 1.5em;
     font-style: italic;
 }
 
-#shareBtn {
-    background-color: transparent;
-    border-color: transparent;
-}
+
 
 /*--------------------------- Section 2------------------- */
 #Portfolio_container_section{
