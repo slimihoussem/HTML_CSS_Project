@@ -26,3 +26,42 @@ header a{
         text-decoration: none;
         color: black;
 }
+
+/*--------------------------- Section 2------------------- */
+#Portfolio_container_section{
+   border: solid pink 5px;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items:center;  
+  flex-direction: row;
+  gap: 15px;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 50px;
+  justify-items: center;
+}
+
+.photo-grid-item p{
+    color:rgb(192, 35, 61);
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+}
+/* ------------------------------------------------------------- */
+
