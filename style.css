@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #services{
   color: gray;
   justify-content: space-around;
@@ -17,6 +18,99 @@
 
     
 =======
+=======
+
+#divcont{
+    align-items: center;
+    display: flex;
+}
+#stylform{
+    margin: 100px;
+    /*background-color: transparent;*/
+    font-style: italic;
+    /*filter: blur(5px);*/
+    background-color: rgba(117, 111, 111, 0.651); /* Blanco al 50% de opacidad */
+    align-content: center;
+    padding: 50px;
+}
+#msg{
+   width: 250px;
+   height: 100px; 
+}
+#but{
+    background-color: #606d79;
+    align-items: center;
+}
+
+ .alert {
+            display: none;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        
+        .alert.success {
+            background-color: #606d79;
+            color: #0a0a0a;
+            border: 1px solid #606d79;
+        }
+        
+        /* Quand le formulaire reçoit le focus et est "validé" */
+        form:focus-within .alert.success {
+            display: block;
+        }
+        
+header {
+    align-items: center;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    background-color: rgb(215, 213, 213);
+}
+
+footer{
+    background-color: rgb(215, 213, 213);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#logo img{
+    float: left;
+    margin-left: 0;
+    width: 90px;
+    height: 50px;
+}
+
+#nav_bar nav{
+    float: right;
+    top: 0;
+    right: 0;
+    margin-right: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+header a{
+        text-decoration: none;
+        color: black;
+}
+
+#location{
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#shareBtn {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+>>>>>>> d2663e80d4216907c2d6af1e6d418fc54210bf9f
 /*--------------------------- Section 2------------------- */
 #Portfolio_container_section{
    border: solid pink 5px;
@@ -54,4 +148,9 @@ img{
     border-radius: 50%;
 }
 /* ------------------------------------------------------------- */
+<<<<<<< HEAD
 >>>>>>> 266afa9d1a9ad724973e7835fb2f468f0282f339
+=======
+
+
+>>>>>>> d2663e80d4216907c2d6af1e6d418fc54210bf9f
