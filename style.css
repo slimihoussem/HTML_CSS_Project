@@ -1,25 +1,57 @@
-h1{
-    color: gray;
-    font-style: oblique;
+<<<<<<< HEAD
+#services{
+  color: gray;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 15px;
+  display: flex;
+ }
+
+#shooting,#Mariages,#Evenements{
+    flex: auto;
+    /*display: flex;*/
+    justify-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    }
+
+    
+=======
+/*--------------------------- Section 2------------------- */
+#Portfolio_container_section{
+   border: solid pink 5px;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items:center;  
+  flex-direction: row;
+  gap: 15px;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 50px;
+  justify-items: center;
+}
+
+.photo-grid-item p{
+    color:rgb(192, 35, 61);
     text-align: center;
 }
-.services{
-    justify-items: center;
-    display: flex;
-    border: solid black 5px;
+img{
+    border-radius: 50%;
 }
-.shooting{
-    height: 100px; 
-    width: 100px;
-    
-}
-.Mariages{
-   height: 100px; 
-    width: 100px;
-   
-}
-.Evenement{
-    height: 100px; 
-    width: 100px;
-    
-}
+/* ------------------------------------------------------------- */
+>>>>>>> 266afa9d1a9ad724973e7835fb2f468f0282f339
