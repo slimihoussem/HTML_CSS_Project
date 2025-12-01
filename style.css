@@ -1,0 +1,70 @@
+.section1 #accueil1 {
+    background-image: url("image/accueil.jpg");
+    width: 100%;
+    height: 1000PX;
+
+}
+
+#h1css {
+    /* text-align: center;*/
+    padding-left: 300px;
+
+}
+
+#photogr1 {
+    padding-left: 500px;
+    margin-top: 0px;
+    margin: 0%;
+}
+
+
+#section1part2 {
+
+    padding-top: 20px;
+    display: flex;
+
+}
+
+#aboutStudio {
+
+
+    padding: 50px;
+    margin: 20px;
+
+    font-size: medium;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: black;
+    background-color: rgb(242, 245, 247);
+}
+
+#aboutStudio h2 {
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    size: 80%;
+
+
+    color: black;
+}
+
+#imageStudio img {
+    padding: 50px;
+    margin: 20px;
+    float: right;
+    width: 70%;
+    height: 70%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+
+
+}
+
+.section1 img {
+    width: 50%;
+    height: 50%;
+}
