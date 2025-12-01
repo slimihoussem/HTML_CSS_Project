@@ -132,23 +132,24 @@ color: gray;}
     align-items: center;
 }
 
+
  .alert {
             display: none;
             padding: 15px;
             margin: 10px 0;
             border-radius: 4px;
         }
-        
+/*
         .alert.success {
             background-color: #606d79;
             color: #0a0a0a;
             border: 1px solid #606d79;
         }
         
-        /* Quand le formulaire reçoit le focus et est "validé" */
         form:focus-within .alert.success {
             display: block;
         }
+            */
         
 header {
     align-items: center;

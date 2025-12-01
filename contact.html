@@ -25,11 +25,17 @@
         <input type="text" name="msg" id="msg" placeholder="Decrire votre évenement." required><br>
 <br>
         <label for="button"></label>
-        <input type="submit" value="Envoyer" id="but">
+        <input type="submit" value="Envoyer" id="but" onclick="showMsg()">
 
-        <div class="alert success">
+        <div class="alert success" id="message">
             THANKS FOR CHOOSING US &#10084;&#xfe0f!
         </div>
+
+        <script>
+           function showMsg() {
+           document.getElementById('message').style.display = 'block';
+        }
+        </script>
     </form>
 </div>
      <!-- <div id="success-message" class="message-success">
