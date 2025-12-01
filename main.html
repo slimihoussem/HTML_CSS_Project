@@ -10,7 +10,9 @@
     <!--header-->
     <header>
         <div id="logo">
-            <img src="image/logo.jpg" alt="logo">
+            <a href="#">
+                <img src="image/logo.png" alt="logo">
+            </a>
         </div>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -25,11 +27,16 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div id="nav_bar">
+            <script>
+                function openPopup(page) {
+                window.open(page, "popupWindow", "width=600,height=400,left=450,top=200");
+                    }
+</script>
             <nav>
                     <a href="#section1"><span>Acceuil  </span></a> &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#section2"><span>Portfolio  </span></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#Portfolio_container_section"><span>Portfolio  </span></a> &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="#section3"><span>Services  </span></a> &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="contact.html"><span>Contact  </span></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" onclick="openPopup('contact.html')"><span>Contact  </span></a> &nbsp;&nbsp;&nbsp;&nbsp;
             </nav>
 
         </div>
@@ -89,7 +96,20 @@
 
     <!--footer-->
     <footer>
+         <div id="location">
+             <a href="https://maps.google.com/?q=Your+Location+Here" 
+                 target="_blank" 
+                  aria-label="Our Location">
+              <span >📍</span>
+             <span>Location</span>
+             </a>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <button id="shareBtn" aria-label="Share this page">
+               <span >🔗</span>
+              <span>Share</span>
+         </button>
 
+         </div>
     </footer>
 
 </body>

@@ -32,18 +32,28 @@ body{
         form:focus-within .alert.success {
             display: block;
         }
+        
 header {
     align-items: center;
     display: flex;
+    position: sticky;
+    top: 0;
     justify-content: center;
-    display: fixed;
     background-color: rgb(215, 213, 213);
+}
+
+footer{
+    background-color: rgb(215, 213, 213);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
 }
 
 #logo img{
     float: left;
     margin-left: 0;
-    width: 50px;
+    width: 90px;
     height: 50px;
 }
 
@@ -54,11 +64,23 @@ header {
     margin-right: 0;
     font-family: Arial, sans-serif;
     font-size: 1.5em;
+    font-style: italic;
 }
 
 header a{
         text-decoration: none;
         color: black;
+}
+
+#location{
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#shareBtn {
+    background-color: transparent;
+    border-color: transparent;
 }
 
 /*--------------------------- Section 2------------------- */
